@@ -9,10 +9,8 @@ import play from '../assets/images/play.png';
 import RegsiterChildForm from '../components/gettingStartedForm';
 //GSAP
 import gsap from 'gsap';
-import { useGSAP } from '@gsap/react'
 import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
-import {useRef } from 'react';
 
 
 function Home() {
