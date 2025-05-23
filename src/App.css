@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+*{
+    /*Default font*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+button{
+    cursor: pointer;
+}
+
+.section_bg{
+    background-image: url(../src//assets/images/children_running.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
